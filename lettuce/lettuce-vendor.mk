@@ -293,6 +293,7 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
     qcrilmsgtunnel \
+    qti-telephony-common \
     TimeService \
     shutdownlistener \
     qcnvitems \
