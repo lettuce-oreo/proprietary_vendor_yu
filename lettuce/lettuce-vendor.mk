@@ -17,7 +17,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
-    vendor/yu/lettuce/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/yu/lettuce/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/yu/lettuce/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
     vendor/yu/lettuce/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
