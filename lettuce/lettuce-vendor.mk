@@ -127,7 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/yu/lettuce/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/yu/lettuce/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -229,7 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
-    vendor/yu/lettuce/proprietary/vendor/lib64/libmdmdetect.so:system/vendor/lib64/libmdmdetect.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libmm-abl-oem.so:system/vendor/lib64/libmm-abl-oem.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     vendor/yu/lettuce/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
@@ -259,6 +257,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/lettuce/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
 
 PRODUCT_PACKAGES += \
+    libmdmdetect \
     libtime_genoff \
     libloc_api_v02 \
     libloc_ds_api \
